@@ -14,6 +14,7 @@ RUN apt-get upgrade -y
 RUN apt-get install -y python-software-properties openssh-server wget curl build-essential bzip2 unzip gettext
 RUN apt-add-repository -y ppa:git-core/ppa
 RUN apt-get -qq update
+RUN apt-get install -y git-core
 
 #
 #  Locales
