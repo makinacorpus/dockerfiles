@@ -7,6 +7,7 @@
 #  Or build the image locally :
 #
 #     sudo docker build -t=tilemill2 https://raw.github.com/makinacorpus/dockerfiles/master/tilemill2/Dockerfile
+#     sudo docker run -p :3000 tilemill2
 #
 FROM makinacorpus/ubuntubox
 MAINTAINER Mathieu Leplatre "contact@mathieu-leplatre.info"
